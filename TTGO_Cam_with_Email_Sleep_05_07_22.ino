@@ -32,17 +32,17 @@
 #include "U8x8lib.h"     //  for TTGO https://github.com/olikraus/U8g2_Arduino
 
 // NETWORK CREDENTIALS
-const char*        ssid = "NETGEAR46";       //"NETWORK NAME";
-const char*    password = "icysea351";       //"PASSWORD";
+const char*        ssid = "NETWORK NAME";
+const char*    password = "PASSWORD";
 
 // CONFIGURE MAIL CLIENT
 // To send Emails using Gmail on port 465 (SSL), you need to create an app password: https://support.google.com/accounts/answer/185833
-#define emailSenderAccount    "jpipe5000@gmail.com"
-#define emailSenderPassword   "dbmd uzta sntu soqm"
+#define emailSenderAccount    "Your_email@gmail.com"
+#define emailSenderPassword   "access_code"
 #define smtpServer            "smtp.gmail.com"
 #define smtpServerPort        465
 #define emailSubject          "ESP32-CAM Photo Captured"
-#define emailRecipient        "jpipe001@gmail.com"
+#define emailRecipient        "Your_email@gmail.com"
 
 // The Email Sending data object contains config and data to send
 SMTPData smtpData;
